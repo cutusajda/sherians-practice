@@ -32,9 +32,10 @@ html,body{
 
 }
 h1{
-    color: #66ea00;
+    color: #A01BB5;
     padding-top: 20%;
-    font-size: 60px;
+    font-size: 80px;
+    font-weight: 80px;
     
     
 
@@ -46,8 +47,12 @@ button{
     border-radius: 20px;
     padding: 10px 20px;
     font-size: 40px;
-    color: #54a813;
+    color: #c8fb95;
+    font-weight: bold;
     font-family: horror1; 
+    padding: 0 40px 0 40px;
+    border: 2px solid #76ea11;
+    background: linear-gradient(to top, #A01BB5 , #59b509)
 }
 .child{
     display: flex;
