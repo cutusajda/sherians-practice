@@ -1,0 +1,53 @@
+@font-face {
+    font-family: myfont;
+    src: url('./Freakdrip.otf');
+}
+
+@font-face {
+    font-family: myfont2;
+    src: url('./Freakshow.otf');
+}
+
+@font-face {
+    font-family:neu ;
+    src: url('./NeueMachina-Regular_DQCmjH1st.ttf');
+}
+
+@font-face {
+    font-family: noth;
+    src: url('./Ndot-55.otf');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+h1{
+    color: rgb(206, 59, 59);
+    background-color: black;
+    font-size: 100px;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-weight:700 ;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: myfont;
+}
+h2{
+    font-family: myfont2;
+}
+
+h3{
+    font-family:neu ;
+}
+
+h4{
+    font-family: noth;
+    font-size: 100px;
+}
