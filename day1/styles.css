@@ -51,3 +51,23 @@ h4{
     font-family: noth;
     font-size: 100px;
 }
+
+.main{
+    height: 500px;
+    width: 500px;
+    /* background: linear-gradient(to left top,#696FC7,#A7AAE1 ,red,orange); */
+
+    /* background: radial-gradient(red,blue,green,yellow); */
+
+    /* background: conic-gradient(red,orange,yellow,green,blue,indigo,violet,red); */
+
+background-color: aquamarine;
+
+}
+
+.child{
+
+    background-color: cornflowerblue;
+    height: 50%;
+    width: 50%;
+}
