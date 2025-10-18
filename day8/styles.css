@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+h1{
+    color: transparent;
+    text-align: center;
+    font-size: 150px;
+
+    
+    /* background-image: url(https://images.unsplash.com/photo-1759266097947-397b6b7e7440?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=764); */
+    /* background-size: cover; */
+
+    /* or */
+    /* background: linear-gradient(red,blue); */
+
+    /* or */
+    background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/source/f46fa941995087.57bd505f42852.gif);
+    background-clip: text;
+
+    /* to give border to the text */
+    -webkit-text-stroke: 2px red;
+
+    
+
+}
+
+.parent{
+    height: 500px;
+    width: 100%;
+    background-color: #333;
+    padding: 30px;
+    display: flex;
+    gap: 30px;
+    flex-wrap: nowrap;
+    overflow: auto;
+
+}
+
+/* to remove  the scrollbar */
+/* .parent::-webkit-scrollbar{
+    display: none;
+} */
+
+/* to add color to the scrollbar */
+.parent::-webkit-scrollbar{
+    background-color: lightblue;
+}
+/* to add color to the scrollbar thumb */
+.parent::-webkit-scrollbar-thumb{
+    background-color: red;
+}
+
+.child{
+    height: 100%;
+    width:auto;
+    flex-shrink:0;
+}
+
+.child img{
+    height: 100%;
+    width: 100%;
+    object-fit:cover ;
+
+}
