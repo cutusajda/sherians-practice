@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-grow: 1;
+    gap: 20px;
+
+
+    section{
+    height: 100%;
+    width: 100px;
+    flex-grow: 1;
+     background-size: cover;
+    background-position: center;
+}
+
+section:hover{
+    flex-grow: 5;
+    transition: all 0.7s cubic-bezier(0.19, 1, 0.22, 1);
+    cursor: pointer;
+    
+
+}
+
+section:nth-child(1){
+    background-image: url(./Assets/luffy.jpg);
+}
+
+section:nth-child(2){
+    background-image: url(./Assets/next.jpg);
+}
+section:nth-child(3){
+    background-image: url(./Assets/zoro.jpg);
+}
+section:nth-child(4){
+    background-image: url(./Assets//luffu.jpg);
+}
+section:nth-child(5){
+    background-image: url(./Assets/lufy.jpg);
+}
+}
+
+

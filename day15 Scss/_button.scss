@@ -1,0 +1,15 @@
+@mixin btn($color:blue,$bgcolor:rgb(187, 184, 184) ){
+    padding: 15px 30px;
+    font-size: 18px;
+    color: $color;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    background-color: $bgcolor;
+
+}
+
+
+  
+

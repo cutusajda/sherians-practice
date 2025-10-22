@@ -31,18 +31,22 @@ main section h1 {
   color: red;
 }
 main section .red {
-  padding: 20px;
-  font-size: 1.2rem;
-  border: none;
+  padding: 15px 30px;
+  font-size: 18px;
+  color: red;
   border-radius: 10px;
+  border: none;
   cursor: pointer;
-  background-color: red;
+  outline: none;
+  background-color: yellow;
 }
 main section .green {
-  padding: 20px;
-  font-size: 1.2rem;
-  border: none;
+  padding: 15px 30px;
+  font-size: 18px;
+  color: green;
   border-radius: 10px;
+  border: none;
   cursor: pointer;
-  background-color: green;
+  outline: none;
+  background-color: blue;
 }/*# sourceMappingURL=style.css.map */

@@ -1,3 +1,5 @@
+@import "button";
+
 *{
     margin: 0;
     padding: 0;
@@ -15,17 +17,6 @@ html,body{
 
 }
 
-@mixin btn($color){
-    padding: 20px;
-    font-size: 1.2rem;
-    border: none;
-    border-radius: 10px;
-    cursor: pointer;
-    background-color: $color;
-
-
-
-}
 
 main{
     height: 100%;
@@ -36,8 +27,8 @@ main{
 
 
     section{
-        height: 50%;
-        width: 50%;
+        height: 60%;
+        width: 60%;
         background-color: whitesmoke;
        @include center();
 
@@ -49,12 +40,14 @@ main{
         }
 
         .red{
-            @include btn(red)
+            @include btn(red,yellow,20px)
         }
 
         .green{
-            @include btn(green)
+            @include btn(green,blue,20px)
         }
+
+                  
 
     }
 
