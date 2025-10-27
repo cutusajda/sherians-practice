@@ -90,12 +90,13 @@ section.view2 .top, section.view2 .bottom {
   display: flex;
   width: 100%;
   justify-content: space-around;
+  gap: 2rem;
 }
 section.view2 .top .element, section.view2 .bottom .element {
-  text-align: center;
   display: flex;
   flex-direction: column;
   gap: 0.2rem;
+  text-align: center;
 }
 section.view2 .top .element small, section.view2 .bottom .element small {
   opacity: 0.6;
