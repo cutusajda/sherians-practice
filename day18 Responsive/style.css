@@ -82,9 +82,11 @@ main section.view1 .bottom .text button {
 section.view2 {
   display: flex;
   flex-direction: column;
-  gap: 2.5rem;
+  gap: 1rem;
   width: 100%;
   padding: 1rem;
+  justify-content: space-around;
+  gap: 2rem;
 }
 section.view2 .top, section.view2 .bottom {
   display: flex;

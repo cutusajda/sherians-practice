@@ -86,10 +86,11 @@ main {
 
 
 section.view2{
-    @include flex(2.5rem);
-   
+  @include flex(1rem);
     width: 100%;
     padding: 1rem;
+    justify-content: space-around;
+    gap: 2rem;
 
     .top,.bottom{
         display: flex;
@@ -152,5 +153,3 @@ section.view2{
     }
   }
 }
-
-
