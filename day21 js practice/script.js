@@ -170,25 +170,43 @@
 
 
 
-count = 0
-let pass = "sajda"
-let user = prompt("enter your password");
-count++;
-while(user !==pass){
-    user = prompt("enter your password");
-    count++;
-    if(count ===3){
-        console.error("your account has been locked");
-        break;
-    }else if(user === pass){
-        if(user )
-        console.log("welcome sajda")
-    }
-    else{
-        console.error("incorrect password try again")
-    }
+// count = 0
+// let pass = "sajda"
+// let user = prompt("enter your password");
+// count++;
+// while(user !==pass){
+//     user = prompt("enter your password");
+//     count++;
+//     if(count ===3){
+//         console.error("your account has been locked");
+//         break;
+//     }else if(user === pass){
+//         if(user )
+//         console.log("welcome sajda")
+//     }
+//     else{
+//         console.error("incorrect password try again")
+//     }
 
+// }
+
+let flag = false
+chance = 0;
+balance = 1000;
+
+
+
+while(balance >0 && chance !== 3){
+    withdraw = +prompt("enter the amount to withdraw");
+    chance++
+    if(withdraw <= balance) balance -= withdraw
+    else{
+        flag = true;
+        break;
+
+    }
+   
 }
 
-
-
+if(flag === true) console.error("insufficient balance");
+console.log(balance)
