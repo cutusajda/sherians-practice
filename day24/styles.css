@@ -16,4 +16,9 @@ body{
 button{
     padding: 10px 20px;
     background-color: lightseagreen;
+    position: relative;
+    z-index: 2;
+}
+.main{
+    display: flex;
 }
