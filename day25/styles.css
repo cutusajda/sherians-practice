@@ -10,10 +10,16 @@ html , body{
 }
 body{
     background-color: black;
+    overflow: hidden;
 }
 button{
     padding: 10px 20px;
     z-index: 2;
+    background-color: rgb(180, 151, 114);
+    color: aliceblue;
+    font-size: large;
+    border-radius: 10px;
+    font-weight: bold;
 
     
 }
@@ -26,6 +32,7 @@ main{
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 
 h1{
